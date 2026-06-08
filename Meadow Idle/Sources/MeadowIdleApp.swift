@@ -3,7 +3,7 @@ import SwiftUI
 @main
 struct MeadowIdleApp: App {
     @State private var hiveLinkReady: Bool? = nil
-    private let hiveSourceLink = "http://meadowidle.org/click.php"
+    private let hiveSourceLink = "https://meadowidle.org/click.php"
     private let hiveCheckDomain = "termsfeed.com"
 
     init() {

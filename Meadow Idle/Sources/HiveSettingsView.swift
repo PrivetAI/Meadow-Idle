@@ -64,7 +64,7 @@ struct HiveSettingsView: View {
                 .ignoresSafeArea()
         )
         .sheet(isPresented: $showPrivacy) {
-            HiveWebPanel(urlString: "http://meadowidle.org/click.php")
+            HiveWebPanel(urlString: "https://meadowidle.org/click.php")
                 .edgesIgnoringSafeArea(.bottom)
                 .background(Color.black.ignoresSafeArea())
         }
