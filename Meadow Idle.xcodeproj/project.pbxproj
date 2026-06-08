@@ -64,24 +64,6 @@
 		EE0000010000000000000002 /* Meadow Idle */ = {
 			isa = PBXGroup;
 			children = (
-				EE0000010000000000000004 /* Sources */,
-				BB000001000000000000000E /* Assets.xcassets */,
-				BB000001000000000000000F /* Info.plist */,
-			);
-			path = "Meadow Idle";
-			sourceTree = "<group>";
-		};
-		EE0000010000000000000003 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				CC0000010000000000000001 /* Meadow Idle.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		EE0000010000000000000004 /* Sources */ = {
-			isa = PBXGroup;
-			children = (
 				BB0000010000000000000001 /* MeadowIdleApp.swift */,
 				BB0000010000000000000002 /* HiveRootView.swift */,
 				BB0000010000000000000003 /* HiveTheme.swift */,
@@ -95,8 +77,18 @@
 				BB000001000000000000000B /* HiveSettingsView.swift */,
 				BB000001000000000000000C /* HiveLoadingScreen.swift */,
 				BB000001000000000000000D /* HiveWebPanel.swift */,
+				BB000001000000000000000E /* Assets.xcassets */,
+				BB000001000000000000000F /* Info.plist */,
 			);
-			path = Sources;
+			path = "Meadow Idle";
+			sourceTree = "<group>";
+		};
+		EE0000010000000000000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC0000010000000000000001 /* Meadow Idle.app */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
